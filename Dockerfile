@@ -13,5 +13,4 @@ ADD search.xml        search.xml
 
 ADD healthcheck.sh                       healthcheck.sh
 
-ENTRYPOINT sh healthcheck
-.sh
+ENTRYPOINT sh healthcheck.sh
